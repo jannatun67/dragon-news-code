@@ -12,7 +12,7 @@ const LeftNavbar = () => {
     // console.log(categories);
     return (
         <div>
-           <h2 className="font-semibold">All Caterogy ({categories.length})</h2>
+           <h2 className="font-semibold">All Caterogy </h2>
            <div className="flex flex-col space-y-4 mt-8">
             {
                 categories.map((category) =>(
